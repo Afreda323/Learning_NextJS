@@ -7,8 +7,8 @@ export default () => {
     <Layout>
       <h1>This is the home page</h1>
       <ul>
-        <PostLink title="Hello Next.js" />
-        <PostLink title="Next.js is awesome" />
+        <PostLink id='hello-next' title="Hello Next.js" />
+        <PostLink id='next-awesome' title="Next.js is awesome" />
       </ul>
     </Layout>
   );
