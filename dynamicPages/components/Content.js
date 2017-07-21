@@ -1,4 +1,4 @@
-export default ({ url: { query: { title } } }) => {
+({ url: { query: { title } } }) => {
   return (
     <div>
       <h1>
